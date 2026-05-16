@@ -9,9 +9,27 @@
     <VerticalStackLayout Padding="30">
 
         <Label 
-            Text="Bem-vindo ao sistema Hostly!"
+            Text="Faça sua reserva!"
             FontSize="24"
             HorizontalOptions="Center"/>
+<Frame Paddig: "10">
+<VerticalStackLayout>
+<Grid RowDefinitions = "auto, auto" ColumnDefinitions = "*, *, 2*">
+<Label Grid.Row = "0" Grid.Column = "0" Text = "Adutos"/>
+<Label Grid.Row = "0" Grid.Column = "1" Text = ""/>
+<Stepper Grid.Row = "0" Grid.Column = "2" x:Name = "totalAdulto" Minimum= "0" Maximum= "10" Increment= "1"/>
+
+
+
+
+
+<Label Grid.Row = "1" Grid.Column = "0" Text = "Crianças"/>
+<Stepper>
+</Grid>
+</VerticalStackLayout>
+
+
+</Frame>
 
     </VerticalStackLayout>
 
