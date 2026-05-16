@@ -31,7 +31,19 @@ BindingContext= "{x:Reference totalCriancas}"/>
 <Stepper>
 </Grid>
 </VerticalStackLayout>
+<Picker x:Name="tipoQuartoPicker"
+        Title="Escolha o tipo de quarto">
 
+<VerticalStackLayout>
+ <Label 
+            Text="Data da reserva"
+            FontSize="24"
+            HorizontalOptions="Center"/>
+<HorizontalStackLayout>
+
+ </HorizontalStackLayout> 
+
+</VerticalStackLayout>
 
 </Frame>
 
