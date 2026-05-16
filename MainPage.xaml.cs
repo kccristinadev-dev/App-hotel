@@ -12,8 +12,7 @@ namespace AppHotel
 
         private async void OnCounterClicked(object sender, System.EventArgs e)
         {
-            await Navigation.PushAsync(new HomePage());
-
+            await Navigation.PushAsync(new Views.HomePage());
         }
     }
 }
