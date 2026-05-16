@@ -11,9 +11,9 @@ namespace AppHotel
         }
 
         protected override Window CreateWindow(IactivationState? activationState){
-            var Window = base.CreateWindow(activationState);
-         Window.Width = 400;
-        Window.Height = 600;
+            var window = base.CreateWindow(activationState);
+         window.Width = 400;
+        window.Height = 600;
             return Window;
         }
     }
