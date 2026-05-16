@@ -3,11 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppHotel.MainPage"
              Title="Hostly">
+
     <VerticalStackLayout Padding="30" Spacing="20">
+
         <Label Text="Bem-vindo ao Hostly!" FontSize="24" HorizontalOptions="Center" />
-        <Entry Text="E-mail" Placeholder="E-mail" /> 
-         <Entry Text ="Senha" Placeholder="Senha" />
+     
+<Entry Placeholder="E-mail" /> 
+         <Entry Placeholder="Senha" />
             <Button Text="Entrar" Clicked="OnCounterClicked" />
-        <Label x:Name="CountLabel" Text="0" HorizontalOptions="Center" />
+  
     </VerticalStackLayout>
 </ContentPage>
