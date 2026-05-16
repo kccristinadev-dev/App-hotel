@@ -7,13 +7,13 @@ namespace AppHotel
         public App()
         {
             InitializeComponent();
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override Window CreateWindow(IactivationState? activationState){
             var Window = base.CreateWindow(activationState);
          Window.Width = 400;
-        hWindow.Height = 600;
+        Window.Height = 600;
             return Window;
         }
     }
