@@ -59,7 +59,7 @@ Text = "Valor total: "/>
 Text = "Valor"/>
 </Frame>
 
-<Button Text = "" Clicked ="voltar_fazerhospedagem"/>
+<Button Text = "Voltar" Clicked ="voltar_fazerhospedagem"/>
 </VerticalStackLayout>
 
 </ContentPage>
