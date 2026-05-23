@@ -18,6 +18,7 @@
 <Label Grid.Row = "0" Grid.Column = "0" Text = "Adultos"/>
 <Label Grid.Row = "0" Grid.Column = "1" Text = "{Binding Value}"
 BindingContext= "{x:Reference totalAdulto}"/>
+
 <Stepper Grid.Row = "0" Grid.Column = "2" x:Name = "totalAdulto" Minimum= "0" Maximum= "10" Increment= "1"/>
 
 
@@ -25,10 +26,10 @@ BindingContext= "{x:Reference totalAdulto}"/>
 
 
 <Label Grid.Row = "1" Grid.Column = "0" Text = "Crianças"/>
-<Label Grid.Row = "0" Grid.Column = "1" Text = "{Binding Value}"
+<Label Grid.Row = "1" Grid.Column = "1" Text = "{Binding Value}"
 BindingContext= "{x:Reference totalCriancas}"/>
-<Stepper Grid.Row = "0" Grid.Column = "2" x:Name = "totalCriancas" Minimum= "0" Maximum= "10" Increment= "1"/>
-<Stepper>
+
+<Stepper Grid.Row = "1" Grid.Column = "2" x:Name = "totalCriancas" Minimum= "0" Maximum= "10" Increment= "1"/>
 </Grid>
 
 </VerticalStackLayout>
@@ -46,13 +47,12 @@ BindingContext= "{x:Reference totalCriancas}"/>
             FontSize="24"
             HorizontalOptions="Center"/>
 <HorizontalStackLayout>
-</Frame>
+
  </HorizontalStackLayout> 
 
 </VerticalStackLayout>
-
 </Frame>
-
+</Frame>
     </VerticalStackLayout>
 
 </ContentPage>
