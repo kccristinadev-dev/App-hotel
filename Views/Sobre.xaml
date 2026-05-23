@@ -31,10 +31,31 @@ Text = "Número de crianças "/>
 </Frame>
 
 <Frame Margin = "10">
-<Grid ColumnDefinitions = "*, *, *" RowDefinitions = "">
+<Grid ColumnDefinitions = "*, *, *" RowDefinitions = "auto, auto">
+
+<Label
+ Grid.Row = "0" Grid.Column = "0" Text = "check-in: "/>
+<Label
+Text Grid.Row = "0" Grid.Column = "1" Text = "check-out: "/>
+<Label
+Text Grid.Row = "0" Grid.Column = "2" Text = "Estadia: "/>
+
+
+
+<Label 
+ Grid.Row = "1" Grid.Column = "0" Text = "Dia de início "/>
+<Label
+Text Grid.Row = "1" Grid.Column = "1" Text = "data de término "/>
+
+<Label
+Text Grid.Row = "1" Grid.Column = "2" Text = "periodo em dias "/>
 
 </Frame>
 
+<Frame>
+<Label
+Text = "Valor total: "/>
+</Frame>
 </VerticalStackLayout>
 
 </ContentPage>
