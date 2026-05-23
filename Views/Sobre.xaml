@@ -55,7 +55,11 @@ Text Grid.Row = "1" Grid.Column = "2" Text = "periodo em dias "/>
 <Frame>
 <Label
 Text = "Valor total: "/>
+<Label
+Text = "Valor"/>
 </Frame>
+
+<Button Text = "" Clicked ="voltar_fazerhospedagem"/>
 </VerticalStackLayout>
 
 </ContentPage>
