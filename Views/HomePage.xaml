@@ -51,8 +51,8 @@ BindingContext= "{x:Reference totalCriancas}"/>
  </HorizontalStackLayout> 
 
 </VerticalStackLayout>
-</Frame>
-</Frame>
+
+<Button Text = "Voltar" Clicked ="voltar_fazerhospedagem"/>
     </VerticalStackLayout>
 
 </ContentPage>
