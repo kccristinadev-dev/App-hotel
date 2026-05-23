@@ -30,9 +30,15 @@ BindingContext= "{x:Reference totalCriancas}"/>
 <Stepper Grid.Row = "0" Grid.Column = "2" x:Name = "totalCriancas" Minimum= "0" Maximum= "10" Increment= "1"/>
 <Stepper>
 </Grid>
+
 </VerticalStackLayout>
+<Label Text="Escolha sua acomodação"
+            FontSize="24"
+            HorizontalOptions="Center"/>
 <Picker x:Name="tipoQuartoPicker"
-        Title="Escolha o tipo de quarto">
+        Title="Selecione tipo de acomodação"/>
+<Frame Padding= "10" Margin = "10"
+>
 
 <VerticalStackLayout>
  <Label 
@@ -40,7 +46,7 @@ BindingContext= "{x:Reference totalCriancas}"/>
             FontSize="24"
             HorizontalOptions="Center"/>
 <HorizontalStackLayout>
-
+</Frame>
  </HorizontalStackLayout> 
 
 </VerticalStackLayout>
