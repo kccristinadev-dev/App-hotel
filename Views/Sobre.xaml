@@ -4,6 +4,37 @@
              x:Class="TipoDeSuite"
              Title="Hostly">
 
+<VerticalStackLayout VerticalOptions = "CenterAndExpanced">
 
+<Label
+Text = "Nome da suíte"/>
+
+
+<Frame>
+<HorizontalStackLayout>
+<HorizontalStackLayout>
+<Label
+Text = "Adultos: "/>
+<Label
+Text = "Número de adultos "/>
+</HorizontalStackLayout>
+
+<HorizontalStackLayout>
+<Label
+Text = "Crianças: "/>
+<Label
+Text = "Número de crianças "/>
+</HorizontalStackLayout>
+
+</HorizontalStackLayout>
+
+</Frame>
+
+<Frame Margin = "10">
+<Grid ColumnDefinitions = "*, *, *" RowDefinitions = "">
+
+</Frame>
+
+</VerticalStackLayout>
 
 </ContentPage>
