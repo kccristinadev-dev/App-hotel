@@ -1,11 +1,11 @@
 public reserva(){
- InitalizeComponet();
+ InitializeComponet();
 }
 private void voltar(object sender, EventArgs e){
 try{
 
 }
-catch (Exxeption ex){
+catch (Exeption ex){
 
 }
 
