@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace MauiPaaHotel.Models
+namespace MauiAppHotel.Models
 {
 public class Quarto {
 
