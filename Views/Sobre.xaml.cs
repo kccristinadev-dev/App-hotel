@@ -1,7 +1,7 @@
 public partial class Reserva : ContentPage
 {
-public reserva(){
- InitializeComponet();
+public Reserva(){
+ InitializeComponent();
 }
 private async void voltar(object sender, EventArgs e){
 try{
