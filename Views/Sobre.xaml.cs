@@ -1,12 +1,12 @@
 public reserva(){
  InitializeComponet();
 }
-private void voltar(object sender, EventArgs e){
+private async void voltar(object sender, EventArgs e){
 try{
-     Navigation.PopAsync();
+     await Navigation.PopAsync();
 }
-catch (Exeption ex){
- DisplayArlert("Ops ",ex.mensagem, " ok");
+catch (Exception ex){
+await DisplayAlert("Ops ",ex.mensagem, " ok");
 }
 
 }
