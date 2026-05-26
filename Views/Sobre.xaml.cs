@@ -1,3 +1,5 @@
+public partial class Reserva : ContentPage
+{
 public reserva(){
  InitializeComponet();
 }
@@ -9,4 +11,5 @@ catch (Exception ex){
 await DisplayAlert("Ops ",ex.Mensagem, " ok");
 }
 
+}
 }
