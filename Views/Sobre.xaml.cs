@@ -8,7 +8,7 @@ try{
      await Navigation.PopAsync();
 }
 catch (Exception ex){
-await DisplayAlert("Ops ",ex.Mensagem, " ok");
+await DisplayAlert("Ops ",ex.Message, " ok");
 }
 
 }
