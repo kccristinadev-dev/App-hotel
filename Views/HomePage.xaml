@@ -43,9 +43,21 @@ BindingContext= "{x:Reference totalCriancas}"/>
 
 <VerticalStackLayout>
  <Label 
-            Text="Data da reserva"
+            Text="Periodo da estadia"
             FontSize="24"
             HorizontalOptions="Center"/>
+<Label 
+            Text="Data inicial"
+            FontSize="15"
+            HorizontalOptions="Center"/>
+                            <DatePicker x:Name="dtpck_checkout"
+                                        Format="dd/MM/yyyy" />
+<Label 
+            Text="Data de término"
+            FontSize="15"
+            HorizontalOptions="Center"/>
+                            <DatePicker x:Name="dtpck_checkout"
+                                        Format="dd/MM/yyyy" />
 <HorizontalStackLayout>
 
  </HorizontalStackLayout> 
