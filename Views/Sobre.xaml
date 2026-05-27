@@ -32,31 +32,20 @@ Text = "Número de crianças "/>
 
 <Frame Margin = "10">
 <Grid ColumnDefinitions = "*, *, *" RowDefinitions = "auto, auto">
+                <Label Grid.Row="0" Grid.Column="0" Text="Check-in:" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Check-out:" />
+                <Label Grid.Row="0" Grid.Column="2" Text="Estadia:" />
 
-<Label
- Grid.Row = "0" Grid.Column = "0" Text = "check-in: "/>
-<Label
- Grid.Row = "0" Grid.Column = "1" Text = "check-out: "/>
-<Label
- Grid.Row = "0" Grid.Column = "2" Text = "Estadia: "/>
+                <Label Grid.Row="1" Grid.Column="0" Text="27/05/2024" />
+                <Label Grid.Row="1" Grid.Column="1" Text="30/05/2024" />
+                <Label Grid.Row="1" Grid.Column="2" Text="3" />
+            </Grid>
+        </Frame>
 
-
-
-<Label 
- Grid.Row = "1" Grid.Column = "0" Text = "Dia de início "/>
-<Label
- Grid.Row = "1" Grid.Column = "1" Text = "data de término "/>
-
-<Label
-Grid.Row = "1" Grid.Column = "2" Text = "periodo em dias "/>
-</Grid>
-</Frame>
-
-<Frame>
-<Label
-Text = "Valor total: "/>
-<Label
-Text = "Valor"/>
+        <Frame Margin="10">
+            <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
+                <Label Text="Valor Total: " />
+                <Label Text="R$ 750,00" />
 </Frame>
 
 <Button Text = "Voltar" Clicked ="voltar_fazerhospedagem"/>
