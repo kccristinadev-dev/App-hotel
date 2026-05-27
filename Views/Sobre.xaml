@@ -46,6 +46,7 @@ Text = "Número de crianças "/>
             <HorizontalStackLayout HorizontalOptions="CenterAndExpand">
                 <Label Text="Valor Total: " />
                 <Label Text="R$ 750,00" />
+</HorizontalStackLayout>
 </Frame>
 
 <Button Text = "Voltar" Clicked ="voltar_fazerhospedagem"/>
