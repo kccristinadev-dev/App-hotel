@@ -60,7 +60,7 @@ BindingContext= "{x:Reference totalCriancas}"/>
 <HorizontalStackLayout>
 
  </HorizontalStackLayout> 
-<Button Text = "Fazer hospedagem" Clicked ="hospedar" Style="{StaticResource BotaoPrimario}"/>
+<Button Text = "Fazer hospedagem" Clicked ="Hospedar" Style="{StaticResource BotaoPrimario}"/>
     </VerticalStackLayout>
 </VerticalStackLayout>
 
