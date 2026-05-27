@@ -11,7 +11,7 @@
         <Label 
             Text="Faça sua reserva!"
             FontSize="24"
-            HorizontalOptions="Center"/>
+            HorizontalOptions="Center" Style="{StaticResource TituloPrincipal}" />
 <Frame Padding="10">
 <VerticalStackLayout>
 <Grid RowDefinitions = "Auto, Auto" ColumnDefinitions = "*, *, 2*">
@@ -34,8 +34,7 @@ BindingContext= "{x:Reference totalCriancas}"/>
 
 </VerticalStackLayout>
 <Label Text="Escolha sua acomodação"
-            FontSize="24"
-            HorizontalOptions="Center"/>
+              Style="{StaticResource TextoPadrao}"/>
 <Picker x:Name="tipoQuartoPicker"
         Title="Selecione tipo de acomodação"/>
 <Frame Padding= "10" Margin = "10"
@@ -61,7 +60,7 @@ BindingContext= "{x:Reference totalCriancas}"/>
 <HorizontalStackLayout>
 
  </HorizontalStackLayout> 
-<Button Text = "Voltar" Clicked ="Fazer hospedagem"/>
+<Button Text = "Fazer hospedagem" Clicked ="hospedar" Style="{StaticResource BotaoPrimario}"/>
     </VerticalStackLayout>
 </VerticalStackLayout>
 
