@@ -16,14 +16,14 @@ Text = "Nome da suíte"/>
 <Label
 Text = "Adultos: "/>
 <Label
-Text = "Número de adultos "/>
+Text = "2"/>
 </HorizontalStackLayout>
 
 <HorizontalStackLayout>
 <Label
 Text = "Crianças: "/>
 <Label
-Text = "Número de crianças "/>
+Text = "3"/>
 </HorizontalStackLayout>
 
 </HorizontalStackLayout>
