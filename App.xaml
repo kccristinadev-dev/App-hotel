@@ -8,7 +8,7 @@
         <ResourceDictionary>
 
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Themes.xaml"/>
+                <ResourceDictionary Source="Resources/Styles/Style.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
             <!-- Estilo global de Label -->
