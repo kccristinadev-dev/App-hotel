@@ -19,7 +19,7 @@ public partial class ContratacaoHospedagem : ContentPage
         dtpck_checkout.MaximumDate = dtpck_checkin.Date.AddMonths(6);
     }
 
-    private void Button_Clicked(object sender, EventArgs e)
+    private void Hospedar(object sender, EventArgs e)
     {
         try
         {
