@@ -6,11 +6,11 @@
 
     <VerticalStackLayout Padding="30" Spacing="20">
 
-        <Label Text="Bem-vindo ao Hostly!" FontSize="24" HorizontalOptions="Center" />
+        <Label Text="Bem-vindo ao Hostly!" FontSize="24" HorizontalOptions="Center" Style="{StaticResource TituloPrincipal}"  />
      
 <Entry Placeholder="E-mail" /> 
-         <Entry Placeholder="Senha" />
-            <Button Text="Entrar" Clicked="OnCounterClicked" />
+         <Entry Placeholder="Senha"/>
+            <Button Text="Entrar" Clicked="OnCounterClicked"   Style="{StaticResource BotaoPrimario}" />
   
     </VerticalStackLayout>
 </ContentPage>
